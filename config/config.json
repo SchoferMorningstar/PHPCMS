@@ -1,0 +1,15 @@
+{
+  "template": "templates/default/",
+  "siteName": "My CMS",
+  "rootPath": "C:/laragon/www/cms/",
+  "blogDir": "blog/",
+  "siteSlogan": "I write, you read!",
+  "version": "0.0.1-dev",
+  "language": "en",
+  "ableLanguages": ["en", "pl"],
+  "nav": [
+    { "link": "index.php", "text": "{NAV_HOME_TEXT}", "scope": "all" },
+    { "link": "blog.php", "text": "{NAV_BLOG_TEXT}", "scope": "all" },
+    { "link": "admin/index.php", "text": "{NAV_ADMIN_TEXT}", "scope": "admin" }
+  ]
+}
