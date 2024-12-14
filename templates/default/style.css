@@ -54,3 +54,19 @@ footer {
   background-color: darkslateblue;
   text-align: center;
 }
+
+article.blog {
+  width: 70%;
+  padding: 10px;
+  background-color: whitesmoke !important;
+  box-shadow: none;
+}
+article.blog h1 {
+  text-align: left;
+}
+article.blog .time {
+  text-align: left;
+}
+article.blog p {
+  text-align: justify;
+}
